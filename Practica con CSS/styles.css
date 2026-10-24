@@ -1,0 +1,67 @@
+body{
+    font-family: arial, sans-serif;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoZU10YbsOnA4MZsZdcDU2BQVCDPS0ZwT2XP4Cg-PiG8BWLPfs1Un7cwY&s=10");
+    background-repeat: repeat;
+    background-size: auto;
+    margin: 0;
+    padding: 20px 0;
+}
+h1 {
+   font-size: 40px;
+   margin-top: 0px;
+}
+h2{
+    font-size:30px;
+}
+
+h1, h2, p{
+    text-align: center;   
+}
+
+.Menu {
+    width: 100%;
+    background-color: #FFEB8C;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+
+.item p{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.price{
+    text-align: right;
+    width: 25%;
+}
+
+.flavor, .drink{
+    text-align: left;
+    width: 75%;
+}
+
+.hr{
+    height: 2px;
+    background-color: #FFEB8C;
+    border-color: #FFEB8C;
+}
+
+a:hover{
+    color: darkgoldenrod;
+}
+
+a:active{
+    color:chocolate;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color:blueviolet;
+}

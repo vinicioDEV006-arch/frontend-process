@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f1f5f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.business-card{
+    background-color: #28354A;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+    width: 100%;
+    max-width: 600px;
+
+    display: flex;
+    justify-content: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.card-avatar img{
+    width: 130px;
+    height: 130px;
+    border-radius: 70px;
+    object-fit: cover;
+}
+
+.card-info h2{
+    color: #f8fafc;
+    font-size: 22px;
+    margin-bottom: 4px;
+}
+
+.card-info h3{
+    color: #f8fafc;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.card-info p{
+    color: white;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.social-media a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #f97316;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+.social-media a:hover{
+    color:chocolate;
+    text-decoration: underline;
+}
+
+.icon-red{
+    width: 20px;
+    height: 20px;
+    fill: #f97316;
+    transition: fill 0.2s;
+    margin-right: 0.4rem;
+}
+

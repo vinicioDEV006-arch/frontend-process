@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial scale=1.0">
+        <title>Loginotro</title>
+        <link rel="stylesheet" href="loginpol2.css">
+    </head>
+    <body>
+        <div class="login-container">
+            <h1>Bienvenido</h1>
+
+            <form>
+                <div class="input-box">
+                    <input type="text"
+                    id="usuario"
+                    name="usuario"
+                    placeholder="Usuario"
+                    required>
+                </div>
+
+                <div class="input-box">
+                    <input type="password"
+                    id="password"
+                    name="password"
+                    placeholder="Contraseña"
+                    required>
+                </div>
+
+                <div class="password-checked">
+
+                    <div class="checkbox-item">
+                        <input type="checkbox"
+                        id="show-password"
+                        name="show-password"
+                        oneclick="togglePasswordVisibility()">
+                        <label name="show-password">Mostrar Contraseña</label>
+                    </div>
+
+                    <p><a href="#" class="forgot-link">Recuperar Contraseña</a></p>
+                </div>
+                <button type="submit" class="btnsesion">Iniciar Sesion</button>
+
+                <div class="option">
+                    <p>¿No tienes una cuenta?<a href="#">Registrarse</a></p>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

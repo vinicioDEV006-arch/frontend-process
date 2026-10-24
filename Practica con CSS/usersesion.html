@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial scale=1.0">
+        <title>Login</title>
+        <link rel="stylesheet" href="userdesign.css">
+    </head>
+    <body>
+        <div class="login-container">
+            <h1>Bienvenido Inicie Sesion</h1>
+
+            <div class="icon-header">
+                <svg class="icon-main" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-round preview-icon"><circle cx="12" cy="8" r="5"/><path d="M20 21a8 8 0 0 0-16 0"/></svg>
+            </div>
+
+            <form>
+
+                <div class="input-box">
+                    <svg class="input-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user preview-icon"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                    <input type="text"
+                    id="usuario"
+                    name="usuario"
+                    placeholder="Usuario"
+                    required>
+                </div>
+
+                <div class="input-box">
+                    <svg class="input-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-lock-keyhole preview-icon"><circle cx="12" cy="16" r="1"/><rect x="3" y="10" width="18" height="12" rx="2"/><path d="M7 10V7a5 5 0 0 1 10 0v3"/></svg>
+                    <input type="password"
+                    id="password"
+                    name="password"
+                    placeholder="Contraseña"
+                    required>
+                </div>
+
+                <div class="password-checked">
+                    <div class="checkbox-item">
+                        <input type="checkbox" 
+                        id="show-password"
+                        name="show-password"
+                        oneclick="togglePasswordVisibility()">
+                        <label name="show-password">Mostrar Contraseña</label>
+
+                        <p><a class="forgot-link" href="#">Recuperar Contraseña</a></p>
+                    </div>
+                </div>
+                <button type="submit" class="btnsesion">Iniciar Sesion</button>
+
+                <div class="option">
+                    <p>¿No tienes una cuenta?<a href="#">Registrarse</a></p>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
